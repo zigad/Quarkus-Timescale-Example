@@ -36,8 +36,8 @@ hypertable capabilities.
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/zigad/quarkus-timescaledb-example.git
-cd quarkus-timescaledb-example
+git clone https://github.com/zigad/Quarkus-Timescale-Example.git
+cd Quarkus-Timescale-Example
 ```
 
 ### Configure Database
@@ -47,10 +47,11 @@ cd quarkus-timescaledb-example
    You can use Docker to quickly start a TimescaleDB instance:
 
    ```bash
-   docker run -d --name timescaledb -p 5432:5432 -e POSTGRES_PASSWORD=yourpassword timescale/timescaledb:latest-pg14
+   docker run -d --name timescaledb -p 5432:5432 -e POSTGRES_PASSWORD=p433w0rd timescale/timescaledb:latest-pg14
    ```
 
-   Alternatively, you can use the provided `docker-compose.yaml` file to start a TimescaleDB instance provided in the
+   Alternatively, you can use the provided [docker-compose.yaml](docker-compose.yaml) file to start a TimescaleDB
+   instance provided in the
    root folder.
    To start the TimescaleDB instance using Docker Compose, run:
 
