@@ -1,9 +1,7 @@
 # Quarkus TimescaleDB Example
 
-This project demonstrates a simple Quarkus application that interacts with TimescaleDB to manage sensor data. This is
-more of a playground for my personal use but feel free to optimise, or use to code used here, The application showcases
-how to use Quarkus for creating a RESTful API to insert and retrieve sensor data efficiently using TimescaleDB's
-hypertable capabilities.
+This project demonstrates a simple Quarkus application that writes random values into TimescaleDB. This is
+more of a playground for my personal use but feel free to optimise or use to code used here, The application will automatically drop all the tables at startup and recreate random values and populate them into DB so you will already have some example data. We can use REST GET call to get values, we can use POST request call to create a sensor in database and another POST call to populate DB with more random data. This project was done based on Java Quick Start Guide from official [Timescale Code Quick Start - Java](https://docs.timescale.com/quick-start/latest/java/) but instead of using pure Java I used Quarkus.
 
 ## Table of Contents
 
